@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <link rel="shortcut icon" href="../images/clap.png" type="image/x-icon">  
+  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">  
+  <title>Welcome To Clap App</title>
+</head>
+<body class="bg-gray-100">
+
+
+<!-- start navbar -->
+<div class="md:fixed md:w-full md:top-0 md:z-20 flex flex-row flex-wrap items-center bg-white p-6 border-b border-gray-300">
+    
+    <!-- logo -->
+    <div class="flex-none w-56 flex flex-row items-center">
+      <img src="img/Group92.png" class="">
+      <strong class="capitalize ml-1 flex-1"></strong>
+
+      <button id="sliderBtn" class="flex-none text-right text-gray-900 hidden md:block">
+        <i class="fad fa-list-ul"></i>
+      </button>
+    </div>
+    <!-- end logo -->   
+    
+    <!-- navbar content toggle -->
+    <button id="navbarToggle" class="hidden md:block md:fixed right-0 mr-6">
+      <i class="fad fa-chevron-double-down"></i>
+    </button>
+    <!-- end navbar content toggle -->
+
+    <!-- navbar content -->
+    <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
+      <!-- left -->
+      <div style="margin-left: 160px; background-color:  #F7F8FA; ">
+       
+          <input type="text" placeholder="All categories | i'm searching" style="width: 20vw; ">
+        
+              
+      </div>
+      <!-- end left -->      
+
+      <!-- right -->
+      <div class="flex flex-row- items-center"> 
+<a   href="#" title="email"><i class="fas fa-wallet"></i>Wallet</a> 
+ <a style="margin-left: 19px;" href="#" title="email"><i class="fas fa-folder-open"></i>Orders</a> 
+   <a style="margin-left: 19px;" href="#" title="email"><i class="fas fa-shopping-cart"></i>Cart</a>        
+        <a style="margin-left: 19px; margin-right: 60px;" href="#" title="email"><i class="fas fa-user"></i>Profile</i></a> 
+      </div>
+      <!-- end right -->
+    </div>
+    <!-- end navbar content -->
+
+  </div>
+<!-- end navbar -->
+
+
+<!-- strat wrapper -->
+<div class="h-screen flex flex-row flex-wrap">
+  
+    <!-- start sidebar -->
+  <div id="sideBar" class="relative flex flex-col flex-wrap bg-white border-r border-gray-300 p-6 flex-none w-64 md:-ml-64 md:fixed md:top-0 md:z-30 md:h-screen md:shadow-xl animated faster">
+    
+
+    <!-- sidebar content -->
+    <div class="flex flex-col">
+
+      <!-- sidebar toggle -->
+      <div class="text-right hidden md:block mb-4">
+        <button id="sideBarHideBtn">
+          <i class="fad fa-times-circle"></i>
+        </button>
+      </div>
+      <!-- end sidebar toggle -->
+
+
+      <!-- link -->
+      <a href="./index.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+                      
+         <i class="fas fa-university"></i> transfer
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="./index-1.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-id-card"></i>
+        Cards
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="./email.html" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-coins"></i>
+        Airtime/Data Bundles
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-qrcode"></i>
+        QR Payments
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-comment-alt"></i>
+        Messages
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-chart-bar"></i>
+        Transactions
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-concierge-bell"></i>
+        Services
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fas fa-cog"></i>
+        Settings
+      </a>
+      <!-- end link -->   
+      
+      
+      <!-- <img src="img/Group 98.png" alt=""> -->
+
+    </div>
+    <!-- end sidebar content -->
+<img src="img/Group 98.png" alt="" style="position: absolute; bottom: 0; left: 0;">
+
+  </div>
+  <!-- end sidbar -->
+
+  <!-- strat content -->
+  <div class="bg-gray-100 flex-1 p-6 md:mt-16"> 
+
+     <!-- Sales Overview -->
+    <div class="card mt-6">
+
+    <!-- header -->
+    
+    <!-- end header -->
+
+    <!-- body -->
+    <div class="card-body grid grid-cols-2 gap-6 lg:grid-cols-1" style="background-color: #181056;">
+
+        <div class="p-8">
+            <p class="" style="font-size: 18px; font-weight: 600;color: white; margin-bottom: 15px; ">Welcome Ojo</p>
+            <p style="font-weight: 600; color: #FBC251;margin-bottom: 15px;">234527658RG - ACTIVE</p>
+            <p style="font-size: 16px; font-weight: 400;margin-bottom: 15px; ">Ojo Olaoluwa Ademoluyi</p>
+            <p style="font-size: 20px; font-weight: 600; color: white; margin-bottom: 15px;">N1510.70</p>
+
+            
+    
+       
+    </div>
+    <!-- end body -->
+
+</div>
+    <!-- end Sales Overview -->
+
+
+    <!-- General Report -->
+    <div class="grid grid-cols-3 gap-6 xl:grid-cols-1">
+
+
+    <!-- card -->
+    <div class="report-card"style="align-content: center!important;">
+        <div class="card"style="align-content: center!important;">
+            <div class="card-body flex flex-col" style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div  style="align-content: center!important;">
+                    
+                       <img src="img/Vector.png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">Add Money</p>
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                    
+                    
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div class="">
+                  <img src="img/qrcode-scan.png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">QR Payments</p>
+
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                  
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div >
+                    <img src="img/Vectorhome.png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;"> Transfer Money</p>
+
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                    
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+  
+    
+
+</div>
+    <!-- End General Report -->
+<!-- General Report -->
+    <div class="grid grid-cols-3 gap-6 xl:grid-cols-1">
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div >
+                    
+                       <img src="img/Vector (3).png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;">Airtime/Data Bundles</p>
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                    
+                    
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div class="">
+                  <img src="img/Vector (2).png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">My BVN</p>
+
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                  
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div >
+                    <img src="img/Vector (1).png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">Peerpay</p>
+
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                    
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+  
+    
+
+</div>
+    <!-- End General Report -->
+    <!-- General Report -->
+    <div class="grid grid-cols-3 gap-6 xl:grid-cols-1">
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div >
+                    
+                       <img src="img/Vector (5).png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">Transactions</p>
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                    
+                    
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+    <div class="report-card">
+        <div class="card">
+            <div class="card-body flex flex-col"style="display: flex;flex-wrap: wrap;align-content: center;;">
+                
+                <!-- top -->
+                <div class="">
+                  <img src="img/Vector (4).png" alt="">
+                    <p style="font-weight: 400; font-size: 18px; margin-top: 17px;margin-left: 15px;">Settings</p>
+
+                </div>
+                <!-- end top -->
+
+                <!-- bottom -->
+                <div class="mt-8">
+                  
+                </div>                
+                <!-- end bottom -->
+    
+            </div>
+        </div>
+        <div class="footer bg-white p-1 mx-4 border border-t-0 rounded rounded-t-none"></div>
+    </div>
+    <!-- end card -->
+
+
+   
+
+
+  
+    
+
+
+  </div>
+  <!-- end content -->
+
+</div>
+<!-- end wrapper -->
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="js/scripts.js"></script>
+<!-- end script -->
+
+</body>
+</html>
